@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.pallete {
+  display: flex;
+  /* 자식들이 균등하게 자리 차지하는 CSS */
+  flex: 1 1 auto;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.p_tag {
+  color: white;
+  font-weight: bold;
+  text-align: right;
+}
+
+.one {
+  background-color: #55efc4;
+  align-content: flex-end;
+}
+.two {
+  background-color: #81ecec;
+}
+.three {
+  background-color: #74b9ff;
+}
+.four {
+  background-color: #a29bfe;
+}
+.five {
+  background-color: #dfe6e9;
+}
+
+.two_one {
+  background-color: #00b894;
+}
+.two_two {
+  background-color: #00cec9;
+}
+.two_three {
+  background-color: #0984e3;
+}
+.two_four {
+  background-color: #6c5ce7;
+}
+.two_five {
+  background-color: #b2bec3;
+}
+
+.three_one {
+  background-color: #ffeaa7;
+}
+.three_two {
+  background-color: #fab1a0;
+}
+.three_three {
+  background-color: #ff7675;
+}
+.three_four {
+  background-color: #fd79a8;
+}
+.three_five {
+  background-color: #636e72;
+}
+
+.four_one {
+  background-color: #fdcb6e;
+}
+.four_two {
+  background-color: #e17055;
+}
+.four_three {
+  background-color: #d63031;
+}
+.four_four {
+  background-color: #e84393;
+}
+.four_five {
+  background-color: #2d3436;
+}
