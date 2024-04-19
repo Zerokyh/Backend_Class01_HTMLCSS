@@ -1,0 +1,43 @@
+VSCODE 확장프로그램 설치 및 설정
+
+cmd - ipconfig 치면 안뜨는 경우
+
+[시스템 환경 변수 편집]
+실행 - sysdm.cpl - 고급탭 - 환경 변수 클릭
+시스템 변수 - Path
+
+C:\Windows\System32 있는지 확인 후 추가
+
+다시 cmd - ipconfig 확인
+
+[vscode]
+확장프로그램 - Live Server - 설정 - 확장 설정 - Use Local Ip 체크 , Custom Browser - chrome 변경
+
+
+
+Auto Rename Tag
+prettier
+
+[settings]
+editor: default formatter
+None -> prettier
+
+editor: format on save
+check
+
+CSS PEEK
+
+CSS Navigation
+
+[chrome 확장프로그램 설치]
+colorzilla
+
+
+[무료 이미지]
+픽사베이
+
+[무료 아이콘]
+font awesome
+
+링크
+https://cdnjs.com/libraries/font-awesome
