@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.default {
+  color: white;
+  background-color: black;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.kakao {
+  color: black;
+  background-color: #f7e111;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.apple {
+  color: black;
+  background-color: white;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+
+  border: #dbdbdb solid 1px;
+  border-radius: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.apple i {
+  font-size: 30px;
+}
+
+.circle-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+.facebook {
+  color: white;
+  background-color: #0863f7;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button {
+  display: flex;
+  gap: 5px;
+  padding-top: 5px;
+}
+
+.naver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.round-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.circle-button-mail {
+  color: white;
+  background-color: #418fde;
+}
+
+.circle-button-apple {
+  color: white;
+  background-color: black;
+}
+
+.layout {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  color: #1181ff;
+}
+
+.comment {
+}
+
+.register {
+  margin-top: 10px;
+  border: #1181ff solid 1px;
+  border-radius: 8px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+}
