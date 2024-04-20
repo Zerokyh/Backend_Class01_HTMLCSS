@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.icons__container {
+  display: flex;
+  gap: 60px;
+  width: fit-content;
+  font-size: 30px;
+
+  padding: 20px 50px 20px 50px;
+
+  border-radius: 14px;
+  box-shadow: 1px 1px 20px 2px rgba(147, 152, 159, 0.2);
+}
+
+.star {
+  color: green;
+}
+.mug {
+  color: #a8a8a8;
+}
+.card {
+  color: #a8a8a8;
+}
+.location {
+  color: #a8a8a8;
+}

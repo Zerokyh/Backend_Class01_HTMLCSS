@@ -1,0 +1,46 @@
+body {
+  color: white;
+}
+.card__container {
+  display: flex;
+  background-image: url(pool.jpg);
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+
+  /* 폰트 적용 */
+  font-family: "Freesentation-9Black";
+}
+
+.event {
+  margin-bottom: 20px;
+  font-size: 15px;
+  /* 텍스트에 밑줄 표시 */
+  text-decoration: underline;
+  /* 텍스트와 밑줄의 간격 설정 */
+  text-underline-offset: 5px;
+}
+
+.subject {
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.content {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+/* 폰트 링크 */
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}

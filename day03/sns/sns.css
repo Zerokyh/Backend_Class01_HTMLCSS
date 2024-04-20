@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.sns_container {
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(#e66465, #464fb4);
+  font-family: "Pretendard-Regular";
+  gap: 30px;
+  border-radius: 40px;
+  width: 300px;
+  padding: 120px 50px;
+  margin-top: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  font-weight: bold;
+  color: white;
+}
+
+.memo {
+  color: #ffffffb6;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.button {
+  font-family: "Pretendard-Regular";
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  font-size: 16px;
+  background-color: #ffdcda;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.icons > li {
+  transition: all 0.5s ease;
+}
+
+.facebook:hover {
+  color: skyblue;
+}
+
+.instargram:hover {
+  color: plum;
+}
+
+.spotify:hover {
+  color: aquamarine;
+}

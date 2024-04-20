@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-1 {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url("pool.jpg");
+  background-size: cover;
+
+  /* 위아래 좌우 간격 */
+  padding: 20px;
+
+  /* 밝기 조정 */
+  filter: brightness(1.07);
+  transition: all 0.5s ease 1s;
+}
+
+.card-2 {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url("house.jpg");
+  background-size: cover;
+
+  /* 위아래 좌우 간격 */
+  padding: 20px;
+
+  /* 밝기 조정 */
+  filter: brightness(1.07);
+}
+
+.card-3 {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url("pool-2.jpg");
+  background-size: cover;
+
+  /* 위아래 좌우 간격 */
+  padding: 20px;
+
+  /* 밝기 조정 */
+  filter: brightness(1.07);
+}
+
+/* 마우스를 올렸을 때 */
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  filter: brightness(0.8);
+  height: 700px;
+  /* 적용되는 속도 조정 (몇초뒤에 적용될지) */
+  transition: all 0.5s;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+/* text-decoration 밑줄, border를 주로 사용 */
+.category {
+  font-family: "Pretendard-Regular";
+  font-size: 16px;
+
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
+.title {
+  font-family: "JalnanGothic";
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desc {
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+}
