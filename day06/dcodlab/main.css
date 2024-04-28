@@ -1,0 +1,151 @@
+main {
+  width: 100vw;
+  margin-top: 62px;
+}
+
+figure {
+  background-color: black;
+
+  position: absolute;
+  z-index: -1;
+
+  width: 100%;
+  height: 86vh;
+}
+
+.bg_video {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  filter: brightness(0.75);
+}
+
+.bg_video > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  max-width: var(--max-width);
+  width: 100%;
+  height: 86vh;
+
+  /* 섹션 안에서 센터링
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  */
+  margin: 0 auto;
+  color: white;
+}
+
+.first__contents {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  gap: 30px;
+}
+
+.first__subject {
+  font-size: var(--font--size-big);
+  font-weight: var(--font--weight-bold);
+}
+
+.first__text {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+
+.first__btn > button {
+  background-color: transparent;
+  color: white;
+
+  width: 400px;
+  height: 30px;
+
+  border: 1px solid white;
+  font-size: var(--font--size-small);
+
+  margin-top: 40px;
+
+  cursor: pointer;
+}
+
+.second {
+  position: relative;
+  max-width: var(--max-width);
+  width: 100%;
+  height: 710px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+
+  gap: 20px;
+}
+
+.second > .second__card {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  gap: 20px;
+}
+
+.second__card > .card {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 200px;
+
+  gap: 20px;
+}
+
+.second__card > .card > .card__img {
+  width: 100%;
+  height: 120px;
+}
+
+.card__img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.second > .second__title {
+  font-size: var(--font--size-large);
+  font-weight: var(--font--weight-bold);
+  color: var(--menu--color-deepGray);
+}
+
+.second__card > .card > .card__contents {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.card__contents-title {
+  font-weight: var(--font--weight-bold);
+}
+
+.card__contents-text {
+  font-size: var(--font--size-small);
+  color: gray;
+
+  line-height: 1;
+}

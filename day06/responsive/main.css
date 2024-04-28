@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  width: 100vw;
+  height: 93.7vh;
+
+  margin-top: 60px;
+}
+
+.box_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  width: 100%;
+}
+
+.one {
+  background-color: #1abc9c;
+}
+.two {
+  background-color: #2ecc71;
+}
+.three {
+  background-color: #3498db;
+}
+.four {
+  background-color: #9b59b6;
+}
+.five {
+  background-color: #16a085;
+}
+.six {
+  background-color: #27ae60;
+}
+.seven {
+  background-color: #2980b9;
+}
+.eight {
+  background-color: #8e44ad;
+}

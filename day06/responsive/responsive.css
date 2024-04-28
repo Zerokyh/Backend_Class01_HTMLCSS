@@ -1,0 +1,22 @@
+.nav__bar > .hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__bar > ul {
+    display: none;
+  }
+  .nav__bar > .hamburger {
+    display: block;
+  }
+
+  main > .box_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main > .box_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
