@@ -1,0 +1,7 @@
+main {
+  position: relative;
+  top: 84px;
+  width: 100%;
+
+  background-color: var(--gray50);
+}

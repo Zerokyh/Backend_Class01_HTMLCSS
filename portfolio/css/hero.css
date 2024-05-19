@@ -1,0 +1,77 @@
+.hero {
+  width: 100vw;
+  height: calc(100vh - 72px);
+  position: relative;
+}
+
+.hero > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  z-index: -1;
+}
+
+.hero > .hero--jumbotron {
+  width: 100%;
+  position: absolute;
+  font-size: var(--font--size--mega);
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+
+  gap: 30px;
+}
+
+.hero--jumbotron > i {
+  color: var(--blue300);
+  animation: rotate 2s infinite;
+}
+
+.hero--jumbotron > h2 {
+  color: var(--white);
+  animation: hero--jumbotron--text 2.5s infinite;
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hero--jumbotron--text {
+  14% {
+    color: red;
+  }
+  28% {
+    color: orange;
+  }
+  42% {
+    color: yellow;
+  }
+  56% {
+    color: green;
+  }
+  70% {
+    color: var(--blue300);
+  }
+  84% {
+    color: var(--blue800);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero > .hero--jumbotron {
+    font-size: var(--font--size--big);
+  }
+}
